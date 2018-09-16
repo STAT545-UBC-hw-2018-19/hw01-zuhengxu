@@ -73,5 +73,23 @@ It is clearly shown on the outcome that the data is basically a white noise, whi
 2. *R in Action*
 
 
+## some datafrome exploration 
+ 
+Since the date I used above is a time serie data, whose only variable is time. I will use `gapminder` to practice some data  amnage skill.
+
+```{r}
+library(gapminder)
+
+gapminder
+```
+###
+
+Using `attach` to read the variable's name of the dataset:
+```{r}
+attach(gapminder)
+```
+
+
+
 
 
