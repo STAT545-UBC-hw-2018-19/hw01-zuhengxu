@@ -88,7 +88,35 @@ Using `attach` to read the variable's name of the dataset:
 ```{r}
 attach(gapminder)
 ```
+Let's explore `gapminder` with functions like `head`, `ncol`, `str`, `summary`.
+```{r}
+head(gapminder) #top 6 rows 
 
+```
+```{r}
+
+str(gapminder) # dataframe about this data
+ncol(gapminder) #number of cols
+summary(gapminder)# statistical summary 
+```
+
+
+### Extracting columns/rows
+
+Let's extract a column with `$`. Maybe compute its variance.
+```{r}
+
+gapminder$country 
+
+```
+
+
+```{r}
+gapminder[1:4] #extract cols
+
+gapminder[1:4,]#extract rows
+
+```
 
 
 
