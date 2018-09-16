@@ -106,7 +106,7 @@ summary(gapminder)# statistical summary
 Let's extract a column with `$`. Maybe compute its variance.
 ```{r}
 
-gapminder$country 
+gapminder$country #extract column variable "country" 
 
 ```
 
