@@ -1,6 +1,3 @@
-![Zuheng Xu](http://www.yishuzi.com/i/11/1033.png?0912110552678)
-
-
 ## Overview
 
 Welcome to this repository, which provides a brief introduction to **Zuheng(David) Xu** [@zuhengxu](https://github.com/zuhengxu) and is also a test for the realizaitons of various markdown functions.
